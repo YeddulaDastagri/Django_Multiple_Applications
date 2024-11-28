@@ -22,6 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls), 
     path('csk/', include('csk.urls')), 
     path('rcb/', include('rcb.urls')),  
-    path('rcb/', include('mi.urls')),
+    path('mi/', include('mi.urls')),
 
 ]
